@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Come creare un template per i post</title>
   </head>
   <body>
@@ -25,8 +31,9 @@
     </header>
     <!--fine header-->
     <main>
+      <!--inizio main-->
       <h2>Come creare un template per i post</h2>
-      <p>
+      <p class="p1-main">
         <ion-icon name="pencil-sharp"></ion-icon> di Mario Rossi-
         <ion-icon name="time-sharp"></ion-icon> pubblicato il 25-10-2020
       </p>
@@ -50,7 +57,8 @@
       <p>
         Formattazione del codice. Il testo dell'articolo dovrà essere
         formatttato per identificare tutte le parti da
-        <code> selezionare con i CSS</code>. Perciò i passi saranno:
+        <code class="code-1"> selezionare con i CSS</code>. Perciò i passi
+        saranno:
       </p>
       <ol>
         <!--inizio ol-->
@@ -114,9 +122,9 @@
         <!--inizio div video-->
         <p>
           Un test di validazione potrà essere fatto tramite il
-          <code>tool online</code> dedicato allo scopo. Una volta ottimizzato il
-          tutto,avremo raggiunto il nostro obbiettivo ed essere stati dei veri
-          developers come loro
+          <a href="#" class="a-1"> tool online</a> dedicato allo scopo. Una
+          volta ottimizzato il tutto,avremo raggiunto il nostro obbiettivo ed
+          essere stati dei veri developers come loro
         </p>
         <iframe
           width="560"
@@ -129,7 +137,7 @@
         ></iframe>
       </div>
       <!--fine div video-->
-      <div>
+      <div class="div-email">
         <!--div email-->
         <h3>NOVITA'</h3>
         <p>
@@ -140,28 +148,38 @@
         <button>Iscriviti!</button>
       </div>
       <!--fine div mail-->
-      <h3>ARTICOLI CORRELATI</h3>
-      <div>
+      <h3 class="h3-article">ARTICOLI CORRELATI</h3>
+      <div class="article 1">
         <!--div articoli-1-->
         <a href="#">Validare il codice HTML</a>
-        <p><ion-icon name="pricetag-sharp"></ion-icon>Categoria:develop</p>
-        <p><ion-icon name="calendar-sharp"></ion-icon>Data:18-9-2020</p>
+        <p class="p--">
+          <ion-icon name="pricetag-sharp"></ion-icon>Categoria:develop
+        </p>
+        <p class="p-one">
+          <ion-icon name="calendar-sharp"></ion-icon>Data:18-9-2020
+        </p>
       </div>
       <!--fine div articoli-1-->
-      <div>
+      <div class="article 2">
         <!--div articoli-2-->
         <p><a href="#">Correggere la sintassi</a></p>
-        <p><ion-icon name="pricetag-sharp"></ion-icon>Categoria: develop</p>
-        <p><ion-icon name="calendar-sharp"></ion-icon>Data: 16-9-2020</p>
+        <p class="p--">
+          <ion-icon name="pricetag-sharp"></ion-icon>Categoria: develop
+        </p>
+        <p class="p-one">
+          <ion-icon name="calendar-sharp"></ion-icon>Data: 16-9-2020
+        </p>
       </div>
       <!--fine div aericoli-2-->
-      <div>
+      <div class="article 3">
         <!--div aericoli-3-->
         <a href="#">Meno Kb nella pagina</a>
-        <p>
+        <p class="p--">
           <ion-icon name="pricetag-sharp"></ion-icon>Categoria: ottimizzazione
         </p>
-        <p><ion-icon name="calendar-sharp"></ion-icon>Data: 30-9-2020</p>
+        <p class="p-one">
+          <ion-icon name="calendar-sharp"></ion-icon>Data: 30-9-2020
+        </p>
       </div>
       <!--fine div aerticoli-3-->
     </main>
@@ -171,7 +189,7 @@
       <p>
         Testata online di Mario Rossi, registrata con prot. n.213/2018- via
         Luigi Einaudi 2- Milano. P.IVA 00112233.
-        <a href="#info@epicode.school"></a>
+        <a href="#">info@epicode.school</a>
       </p>
     </footer>
     <script

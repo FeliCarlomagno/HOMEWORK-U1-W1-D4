@@ -1,11 +1,36 @@
 body {
   margin: 15px;
   background-image: url(./img/sfondo.png);
-  font-family: ;
+  font-family: "Poppins", sans-serif;
 }
 
 /* inizio header*/
 header {
   text-align: center;
-  background-color: lightskyblue;
+  padding-bottom: 1.3em;
+  border-radius: 5px;
+  background: rgb(2, 0, 36);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    171deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(41, 41, 241, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+img {
+  width: 100%;
+  max-width: 10em;
+  margin: 1.5em;
+}
+
+.p-1 {
+  margin: 1.5em;
+  color: white;
+}
+
+header p {
+  margin-bottom: 0.3em;
+  color: white;
 }

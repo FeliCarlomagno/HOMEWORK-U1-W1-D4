@@ -1,12 +1,11 @@
 body {
+  margin: 15px;
+  background-image: url(./img/sfondo.png);
   font-family: ;
-  background-image: ;
-  background-position: center center;
-  line-height: 1.5;
 }
 
+/* inizio header*/
 header {
-  background: rgb;
-  background: linear-gradient();
   text-align: center;
+  background-color: lightskyblue;
 }

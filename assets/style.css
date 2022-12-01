@@ -2,6 +2,7 @@ body {
   margin: 15px;
   background-image: url(./img/sfondo.png);
   font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
 }
 
 /* inizio header*/
@@ -19,6 +20,15 @@ header {
   );
 }
 
+main {
+  padding: 1.3em;
+  margin-top: 0.7em;
+  border-radius: 5px;
+  background-color: white;
+  border: solid 0.1px lightgray;
+  box-shadow: 0 10px 10px gray;
+}
+
 img {
   width: 100%;
   max-width: 10em;
@@ -33,4 +43,141 @@ img {
 header p {
   margin-bottom: 0.3em;
   color: white;
+}
+
+main h2 {
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+}
+
+.p1-main {
+  text-align: left;
+  margin: 1em 0;
+  color: lightgrey;
+}
+
+main p {
+  margin: 1em 0;
+}
+
+ul {
+  margin-left: 1.9em;
+}
+ul li {
+  margin: 6px;
+}
+
+ul code {
+  background-color: lightgray;
+  border-radius: 0.5em;
+  border: solid gray;
+}
+
+.code-1 {
+  color: rgb(133, 37, 113);
+  font-weight: bold;
+}
+ol {
+  margin-left: 1.9em;
+}
+
+ol li {
+  margin: 6px;
+}
+
+table {
+  border-bottom: solid 2px rgb(79, 79, 238);
+}
+caption {
+  font-weight: bold;
+}
+
+table th {
+  text-align: end;
+  background-color: rgb(79, 79, 238);
+  padding: 1em;
+}
+
+tr {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.a-1 {
+  color: rgb(33, 58, 199);
+  font-weight: 500;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+.div-email {
+  background-color: lightgray;
+  margin-top: 3em;
+}
+.div-email h3 {
+  padding: 1em 0;
+  text-align: center;
+  font-weight: 650;
+}
+
+.div-email p {
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: dotted;
+  padding-left: 10px;
+}
+
+button {
+  background-color: blue;
+}
+.h3-article {
+  text-align: center;
+  margin: 2em auto;
+  font-weight: bold;
+}
+
+.article {
+  width: 100%;
+  height: 7em;
+  margin: 1.5em 0;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.p-one {
+  text-align: right;
+  padding-right: 1em;
+  margin-top: 2em;
+}
+
+.article a {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.p-- {
+  margin-top: 0;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+  border-radius: 10px;
+  background-color: rgb(7, 71, 92);
+}
+
+footer p {
+  padding: 10px;
+}
+
+footer a {
+  color: blueviolet;
 }
